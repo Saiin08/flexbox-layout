@@ -1,0 +1,44 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  gap: 40px;
+  width: 80%;
+  margin: 10% 10%;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  background-color: lightgray;
+}
+
+.sidebar__list {
+  padding: 0;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 300px;
+  background-color: aqua;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
